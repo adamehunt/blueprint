@@ -1,0 +1,50 @@
+{
+  "label": "theme style",
+  "settings": {
+    "_custom": true,
+    "conditions": {
+      "conditions": [
+        {
+          "id": "wouryq",
+          "main": "any"
+        }
+      ]
+    },
+    "typography": {
+      "focusOutline": "none",
+      "typographyHeadingH1": {
+        "font-size": "var(--text-h1)",
+        "line-height": "1.125"
+      },
+      "typographyHeadingH2": {
+        "font-size": "var(--text-h2)",
+        "line-height": "1.125"
+      },
+      "typographyHeadingH3": {
+        "font-size": "var(--text-h3)",
+        "line-height": "1.5"
+      },
+      "typographyBody": {
+        "font-size": "var(--text-m)",
+        "text-wrap": "balance"
+      },
+      "typographyHtml": "100%",
+      "typographyHeadings": {
+        "text-transform": "capitalize",
+        "text-wrap": "pretty"
+      }
+    },
+    "container": {
+      "width": "var(--container-width)"
+    },
+    "section": {
+      "padding": {
+        "bottom": "var(--section-vertical-padding)",
+        "left": "var(--section-horizontal-padding)",
+        "right": "var(--section-horizontal-padding)",
+        "top": "var(--section-vertical-padding)"
+      }
+    }
+  },
+  "id": "theme_style"
+}

@@ -1,0 +1,894 @@
+{
+  "variables": [
+    {
+      "id": "at_base-font",
+      "name": "base-font",
+      "value": "10",
+      "category": "at_clamp-settings"
+    },
+    {
+      "id": "jueliu",
+      "name": "button-border-width",
+      "value": "2px",
+      "category": "pmbmmw"
+    },
+    {
+      "id": "vnblap",
+      "name": "button-color",
+      "value": "var(--color-accent)",
+      "category": "pmbmmw"
+    },
+    {
+      "id": "knmbum",
+      "name": "button-color--hover",
+      "value": "var(--color-accent-dark-20)",
+      "category": "pmbmmw"
+    },
+    {
+      "id": "bvhwun",
+      "name": "button-horizontal-padding-l",
+      "value": "2em",
+      "category": "pmbmmw"
+    },
+    {
+      "id": "bxhybq",
+      "name": "button-horizontal-padding-m",
+      "value": "1.5em",
+      "category": "pmbmmw"
+    },
+    {
+      "id": "bvfqwf",
+      "name": "button-horizontal-padding-s",
+      "value": "1em",
+      "category": "pmbmmw"
+    },
+    {
+      "name": "button-radius",
+      "value": "var(--radius-pill)",
+      "id": "kbtwab",
+      "category": "pmbmmw"
+    },
+    {
+      "id": "mvxloh",
+      "name": "button-text-color",
+      "value": "white",
+      "category": "pmbmmw"
+    },
+    {
+      "id": "sdqwem",
+      "name": "button-text-color--filled",
+      "value": "white",
+      "category": "pmbmmw"
+    },
+    {
+      "id": "kbpbqa",
+      "name": "button-text-color--outlined",
+      "value": "var(--color-accent)",
+      "category": "pmbmmw"
+    },
+    {
+      "name": "button-text-l",
+      "value": "var(--text-l)",
+      "id": "dhigtc",
+      "category": "pmbmmw"
+    },
+    {
+      "name": "button-text-m",
+      "value": "var(--text-m)",
+      "id": "hggdod",
+      "category": "pmbmmw"
+    },
+    {
+      "name": "button-text-s",
+      "value": "var(--text-s)",
+      "id": "mspghc",
+      "category": "pmbmmw"
+    },
+    {
+      "name": "button-vertical-padding-l",
+      "value": "1em",
+      "id": "uxvtev",
+      "category": "pmbmmw"
+    },
+    {
+      "name": "button-vertical-padding-m",
+      "value": "0.75em",
+      "id": "duvefv",
+      "category": "pmbmmw"
+    },
+    {
+      "name": "button-vertical-padding-s",
+      "value": "0.5em",
+      "id": "mmydmg",
+      "category": "pmbmmw"
+    },
+    {
+      "id": "kdcuqw",
+      "name": "card-gap",
+      "value": "var(--space-xs)",
+      "category": "ylelpb"
+    },
+    {
+      "id": "xkbuze",
+      "name": "card-padding",
+      "value": "var(--space-m)",
+      "category": "ylelpb"
+    },
+    {
+      "name": "card-radius",
+      "value": "var(--radius-l)",
+      "id": "cjapmm",
+      "category": "ylelpb"
+    },
+    {
+      "id": "at_clamp-unit",
+      "name": "clamp-unit",
+      "value": "1vw",
+      "category": "at_clamp-settings"
+    },
+    {
+      "id": "kbjipe",
+      "name": "color-accent",
+      "value": "#1daf9e",
+      "category": "rxfffl"
+    },
+    {
+      "id": "vpucai",
+      "name": "color-accent-dark-20",
+      "value": "color-mix(in srgb, var(--color-accent), black 20%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "xblmyg",
+      "name": "color-accent-dark-40",
+      "value": "color-mix(in srgb, var(--color-accent), black 40%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "nxshlq",
+      "name": "color-accent-dark-60",
+      "value": "color-mix(in srgb, var(--color-accent), black 60%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "vysplx",
+      "name": "color-accent-dark-80",
+      "value": "color-mix(in srgb, var(--color-accent), black 80%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "doygek",
+      "name": "color-accent-light-20",
+      "value": "color-mix(in srgb, var(--color-accent), white 20%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "fgzlkw",
+      "name": "color-accent-light-40",
+      "value": "color-mix(in srgb, var(--color-accent), white 40%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "lwxeuk",
+      "name": "color-accent-light-60",
+      "value": "color-mix(in srgb, var(--color-accent), white 60%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "qqphvr",
+      "name": "color-accent-light-70",
+      "value": "color-mix(in srgb, var(--color-accent), white 70%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "olkhod",
+      "name": "color-accent-light-80",
+      "value": "color-mix(in srgb, var(--color-accent), white 80%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "xsshbs",
+      "name": "color-accent-light-90",
+      "value": "color-mix(in srgb, var(--color-accent), white 90%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "oouiyo",
+      "name": "color-danger",
+      "value": "red",
+      "category": "rxfffl"
+    },
+    {
+      "id": "yjnavg",
+      "name": "color-info",
+      "value": "blue",
+      "category": "rxfffl"
+    },
+    {
+      "id": "fsntbb",
+      "name": "color-neutral",
+      "value": "#808080",
+      "category": "rxfffl"
+    },
+    {
+      "id": "ehwqeb",
+      "name": "color-neutral-dark-20",
+      "value": "color-mix(in srgb, var(--color-neutral), black 20%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "bmnnbw",
+      "name": "color-neutral-dark-40",
+      "value": "color-mix(in srgb, var(--color-neutral), black 40%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "cpypkw",
+      "name": "color-neutral-dark-60",
+      "value": "color-mix(in srgb, var(--color-neutral), black 60%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "nqrtkr",
+      "name": "color-neutral-dark-80",
+      "value": "color-mix(in srgb, var(--color-neutral), black 80%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "fnuhry",
+      "name": "color-neutral-light-20",
+      "value": "color-mix(in srgb, var(--color-neutral), white 20%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "sicvoc",
+      "name": "color-neutral-light-40",
+      "value": "color-mix(in srgb, var(--color-neutral), white 40%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "ncmdya",
+      "name": "color-neutral-light-60",
+      "value": "color-mix(in srgb, var(--color-neutral), white 60%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "vbxqev",
+      "name": "color-neutral-light-80",
+      "value": "color-mix(in srgb, var(--color-neutral), white 80%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "ltcyex",
+      "name": "color-neutral-light-90",
+      "value": "color-mix(in srgb, var(--color-neutral), white 90%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "jigoat",
+      "name": "color-primary",
+      "value": "#eb2879",
+      "category": "rxfffl"
+    },
+    {
+      "id": "zymvqb",
+      "name": "color-primary-dark-20",
+      "value": "color-mix(in srgb, var(--color-primary), black 20%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "corgdl",
+      "name": "color-primary-dark-40",
+      "value": "color-mix(in srgb, var(--color-primary), black 40%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "bmifzm",
+      "name": "color-primary-dark-60",
+      "value": "color-mix(in srgb, var(--color-primary), black 60%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "owpeoa",
+      "name": "color-primary-dark-80",
+      "value": "color-mix(in srgb, var(--color-primary), black 80%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "kuklmd",
+      "name": "color-primary-light-20",
+      "value": "color-mix(in srgb, var(--color-primary), white 20%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "eahzwy",
+      "name": "color-primary-light-40",
+      "value": "color-mix(in srgb, var(--color-primary), white 40%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "sxxzyj",
+      "name": "color-primary-light-60",
+      "value": "color-mix(in srgb, var(--color-primary), white 60%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "drscag",
+      "name": "color-primary-light-80",
+      "value": "color-mix(in srgb, var(--color-primary), white 80%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "ychbax",
+      "name": "color-primary-light-90",
+      "value": "color-mix(in srgb, var(--color-primary), white 90%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "jbictq",
+      "name": "color-secondary",
+      "value": "#2f3192",
+      "category": "rxfffl"
+    },
+    {
+      "id": "wwpzqa",
+      "name": "color-secondary-dark-20",
+      "value": "color-mix(in srgb, var(--color-secondary), black 20%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "mxysqq",
+      "name": "color-secondary-dark-40",
+      "value": "color-mix(in srgb, var(--color-secondary), black 40%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "mirmxs",
+      "name": "color-secondary-dark-60",
+      "value": "color-mix(in srgb, var(--color-secondary), black 60%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "vnxeeq",
+      "name": "color-secondary-dark-80",
+      "value": "color-mix(in srgb, var(--color-secondary), black 80%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "psdziz",
+      "name": "color-secondary-light-20",
+      "value": "color-mix(in srgb, var(--color-secondary), white 20%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "brivnu",
+      "name": "color-secondary-light-40",
+      "value": "color-mix(in srgb, var(--color-secondary), white 40%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "udfpqo",
+      "name": "color-secondary-light-60",
+      "value": "color-mix(in srgb, var(--color-secondary), white 60%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "zqsaie",
+      "name": "color-secondary-light-80",
+      "value": "color-mix(in srgb, var(--color-secondary), white 80%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "izvevb",
+      "name": "color-secondary-light-90",
+      "value": "color-mix(in srgb, var(--color-secondary), white 90%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "urzgdt",
+      "name": "color-success",
+      "value": "green",
+      "category": "rxfffl"
+    },
+    {
+      "id": "kzowwe",
+      "name": "color-tertiary",
+      "value": "#EB2679",
+      "category": "rxfffl"
+    },
+    {
+      "id": "gnxzcl",
+      "name": "color-tertiary-dark-20",
+      "value": "color-mix(in srgb, var(--color-tertiary), black 20%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "ufcytj",
+      "name": "color-tertiary-dark-40",
+      "value": "color-mix(in srgb, var(--color-tertiary), black 40%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "jrsngv",
+      "name": "color-tertiary-dark-60",
+      "value": "color-mix(in srgb, var(--color-tertiary), black 60%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "bjatdn",
+      "name": "color-tertiary-dark-80",
+      "value": "color-mix(in srgb, var(--color-tertiary), black 80%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "oypwqc",
+      "name": "color-tertiary-light-20",
+      "value": "color-mix(in srgb, var(--color-tertiary), white 20%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "gsmise",
+      "name": "color-tertiary-light-40",
+      "value": "color-mix(in srgb, var(--color-tertiary), white 40%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "zuytiw",
+      "name": "color-tertiary-light-60",
+      "value": "color-mix(in srgb, var(--color-tertiary), white 60%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "lmdxxj",
+      "name": "color-tertiary-light-80",
+      "value": "color-mix(in srgb, var(--color-tertiary), white 80%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "opgatv",
+      "name": "color-tertiary-light-90",
+      "value": "color-mix(in srgb, var(--color-tertiary), white 90%);",
+      "category": "rxfffl"
+    },
+    {
+      "id": "hcqqid",
+      "name": "color-warning",
+      "value": "orange",
+      "category": "rxfffl"
+    },
+    {
+      "name": "section-gap",
+      "value": "var(--gap-xl)",
+      "id": "emxzpz",
+      "category": "gdflsm"
+    },
+    {
+      "id": "nfglbi",
+      "name": "container-width",
+      "value": "1366px",
+      "category": "rcueht"
+    },
+    {
+      "id": "kbsanr",
+      "name": "width-50",
+      "value": "50%",
+      "category": "rcueht"
+    },
+    {
+      "name": "content-gap",
+      "value": "var(--gap-s)",
+      "id": "nsleeu",
+      "category": "gdflsm"
+    },
+    {
+      "id": "cfeust",
+      "name": "content-gap--s",
+      "value": "var(--gap-xs)",
+      "category": "gdflsm"
+    },
+    {
+      "id": "jciewi",
+      "name": "field-radius",
+      "value": "var(--radius-s)",
+      "category": "vrhtdm"
+    },
+    {
+      "id": "nowpqy",
+      "name": "gap-l",
+      "value": "var(--space-l)",
+      "category": "gdflsm"
+    },
+    {
+      "id": "addsir",
+      "name": "gap-m",
+      "value": "var(--space-m)",
+      "category": "gdflsm"
+    },
+    {
+      "id": "gbvnua",
+      "name": "gap-s",
+      "value": "var(--space-s)",
+      "category": "gdflsm"
+    },
+    {
+      "id": "prnqvv",
+      "name": "gap-xl",
+      "value": "var(--space-xl)",
+      "category": "gdflsm"
+    },
+    {
+      "id": "vqdyvq",
+      "name": "gap-xs",
+      "value": "var(--space-xs)",
+      "category": "gdflsm"
+    },
+    {
+      "id": "pfgwie",
+      "name": "gap-xxl",
+      "value": "var(--space-xxl)",
+      "category": "gdflsm"
+    },
+    {
+      "id": "cuoimt",
+      "name": "gap-xxs",
+      "value": "var(--space-xxs)",
+      "category": "gdflsm"
+    },
+    {
+      "name": "grid-1",
+      "value": "repeat(1, 1fr)",
+      "id": "wdupfy",
+      "category": "atzaxj"
+    },
+    {
+      "name": "grid-2",
+      "value": "repeat(2, 1fr)",
+      "id": "zuiyqr",
+      "category": "atzaxj"
+    },
+    {
+      "name": "grid-3",
+      "value": "repeat(3, 1fr)",
+      "id": "xjytrh",
+      "category": "atzaxj"
+    },
+    {
+      "name": "grid-4",
+      "value": "repeat(4, 1fr)",
+      "id": "tsyxxy",
+      "category": "atzaxj"
+    },
+    {
+      "name": "grid-auto-1",
+      "value": "repeat(auto-fit, minmax(0, 1fr))",
+      "id": "vmqvwh",
+      "category": "atzaxj"
+    },
+    {
+      "name": "grid-auto-2",
+      "value": "repeat(auto-fit, minmax(min(100%, 430px), 1fr))",
+      "id": "gbfelj",
+      "category": "atzaxj"
+    },
+    {
+      "name": "grid-auto-3",
+      "value": "repeat(auto-fit, minmax(min(100%, 320px), 1fr))",
+      "id": "bxdack",
+      "category": "atzaxj"
+    },
+    {
+      "name": "grid-auto-4",
+      "value": "repeat(auto-fit, minmax(min(100%, 250px), 1fr))",
+      "id": "zoetou",
+      "category": "atzaxj"
+    },
+    {
+      "name": "grid-gap",
+      "value": "var(--gap-m)",
+      "id": "rehzxh",
+      "category": "gdflsm"
+    },
+    {
+      "id": "huwnvf",
+      "name": "icon-radius",
+      "value": "var(--radius-circle)",
+      "category": "vrhtdm"
+    },
+    {
+      "name": "image-radius",
+      "value": "var(--radius-l)",
+      "id": "rpwqxg",
+      "category": "vrhtdm"
+    },
+    {
+      "id": "oqanms",
+      "name": "link-color",
+      "value": "var(--color-accent)",
+      "category": "adwthd"
+    },
+    {
+      "id": "qmlvfw",
+      "name": "link-color--hover",
+      "value": "var(--color-accent-dark-20)",
+      "category": "adwthd"
+    },
+    {
+      "id": "at_max-viewport",
+      "name": "max-viewport",
+      "value": "1600",
+      "category": "at_clamp-settings"
+    },
+    {
+      "id": "at_min-viewport",
+      "name": "min-viewport",
+      "value": "360",
+      "category": "at_clamp-settings"
+    },
+    {
+      "id": "bwdrqj",
+      "name": "navigation-gap",
+      "value": "var(--gap-m)",
+      "category": "gdflsm"
+    },
+    {
+      "id": "yaazin",
+      "name": "padding-l",
+      "value": "var(--space-l)",
+      "category": "xexhbc"
+    },
+    {
+      "id": "jtgjfb",
+      "name": "padding-m",
+      "value": "var(--space-m)",
+      "category": "xexhbc"
+    },
+    {
+      "id": "yoaswi",
+      "name": "padding-s",
+      "value": "var(--space-s)",
+      "category": "xexhbc"
+    },
+    {
+      "id": "bqivvb",
+      "name": "padding-xl",
+      "value": "var(--space-xl)",
+      "category": "xexhbc"
+    },
+    {
+      "id": "qhdqun",
+      "name": "padding-xs",
+      "value": "var(--space-xs)",
+      "category": "xexhbc"
+    },
+    {
+      "id": "ppjadf",
+      "name": "padding-xxl",
+      "value": "var(--space-xxl)",
+      "category": "xexhbc"
+    },
+    {
+      "id": "vqiwbf",
+      "name": "padding-xxs",
+      "value": "var(--space-xxs)",
+      "category": "xexhbc"
+    },
+    {
+      "id": "zcquma",
+      "name": "radius-circle",
+      "value": "50%",
+      "category": "vrhtdm"
+    },
+    {
+      "id": "lrslmp",
+      "name": "radius-l",
+      "value": "1rem",
+      "category": "vrhtdm"
+    },
+    {
+      "id": "xhitzw",
+      "name": "radius-m",
+      "value": ".5rem",
+      "category": "vrhtdm"
+    },
+    {
+      "name": "radius-pill",
+      "value": "9999px",
+      "id": "okatco",
+      "category": "vrhtdm"
+    },
+    {
+      "id": "gopsbr",
+      "name": "radius-s",
+      "value": ".25rem",
+      "category": "vrhtdm"
+    },
+    {
+      "id": "mjmijq",
+      "name": "radius-xl",
+      "value": "1.5rem",
+      "category": "vrhtdm"
+    },
+    {
+      "name": "section-horizontal-padding",
+      "value": "var(--space-s-m)",
+      "id": "lnxkre",
+      "category": "xexhbc"
+    },
+    {
+      "name": "section-vertical-padding",
+      "value": "var(--space-xl)",
+      "id": "ialhce",
+      "category": "xexhbc"
+    },
+    {
+      "name": "space-l",
+      "value": "clamp(3rem, 1.53vw + 2.694rem, 4rem)",
+      "id": "ilkdqc",
+      "category": "lenstg"
+    },
+    {
+      "name": "space-m",
+      "value": "clamp(2rem, 0.765vw + 1.847rem, 2.5rem)",
+      "id": "tweemk",
+      "category": "lenstg"
+    },
+    {
+      "name": "space-s",
+      "value": "clamp(1rem, 0.382vw + 0.924rem, 1.25rem)",
+      "id": "kondrh",
+      "category": "lenstg"
+    },
+    {
+      "name": "space-s-m",
+      "value": "clamp(1rem, 2.294vw + 0.541rem, 2.5rem)",
+      "id": "jexqpf",
+      "category": "lenstg"
+    },
+    {
+      "name": "space-xl",
+      "value": "clamp(4rem, 5.354vw + 2.929rem, 7.5rem)",
+      "id": "tvjpuq",
+      "category": "lenstg"
+    },
+    {
+      "name": "space-xs",
+      "value": "clamp(0.5rem, 0.191vw + 0.462rem, 0.625rem)",
+      "id": "nhcmfx",
+      "category": "lenstg"
+    },
+    {
+      "id": "fybraw",
+      "name": "space-xxs",
+      "value": "clamp(0.25rem, 0.096vw + 0.231rem, 0.3125rem)",
+      "category": "lenstg"
+    },
+    {
+      "id": "zrogbj",
+      "name": "system-font",
+      "value": "system-ui, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "category": "pnuvab"
+    },
+    {
+      "name": "text-h1",
+      "value": "clamp(3rem, 0.717vw + 2.771rem, 3.75rem)",
+      "id": "rfbpzo",
+      "category": "pnuvab"
+    },
+    {
+      "name": "text-h2",
+      "value": "clamp(3rem, 0.717vw + 2.771rem, 3.75rem)",
+      "id": "nawhgv",
+      "category": "pnuvab"
+    },
+    {
+      "name": "text-h3",
+      "value": "clamp(2rem, 0.478vw + 1.847rem, 2.5rem)",
+      "id": "nidecm",
+      "category": "pnuvab"
+    },
+    {
+      "id": "paofod",
+      "name": "text-h4",
+      "value": "clamp(1.5rem, 0.478vw + 1.347rem, 2rem)",
+      "category": "pnuvab"
+    },
+    {
+      "id": "gonkpa",
+      "name": "text-h5",
+      "value": "clamp(1.25rem, 0.239vw + 1.174rem, 1.5rem)",
+      "category": "pnuvab"
+    },
+    {
+      "id": "jzkoim",
+      "name": "text-h6",
+      "value": "clamp(1rem, 0.382vw + 0.924rem, 1.25rem)",
+      "category": "pnuvab"
+    },
+    {
+      "id": "xdqflz",
+      "name": "text-l",
+      "value": "1.25rem",
+      "category": "pnuvab"
+    },
+    {
+      "name": "text-m",
+      "value": "1rem",
+      "id": "gduyvs",
+      "category": "pnuvab"
+    },
+    {
+      "id": "arlnbg",
+      "name": "text-s",
+      "value": ".875rem",
+      "category": "pnuvab"
+    },
+    {
+      "id": "akfmea",
+      "name": "text-xl",
+      "value": "1.5rem",
+      "category": "pnuvab"
+    },
+    {
+      "id": "pyzjah",
+      "name": "container-gap",
+      "value": "var(--gap-m)",
+      "category": "gdflsm"
+    },
+    {
+      "id": "dwaici",
+      "name": "width-25",
+      "value": "25%",
+      "category": "rcueht"
+    }
+  ],
+  "categories": [
+    {
+      "id": "pmbmmw",
+      "name": "Buttons"
+    },
+    {
+      "id": "ylelpb",
+      "name": "Cards"
+    },
+    {
+      "id": "rxfffl",
+      "name": "Colors"
+    },
+    {
+      "id": "atzaxj",
+      "name": "Grids"
+    },
+    {
+      "id": "adwthd",
+      "name": "Links"
+    },
+    {
+      "id": "vrhtdm",
+      "name": "Radius"
+    },
+    {
+      "id": "rcueht",
+      "name": "Sizes"
+    },
+    {
+      "id": "lenstg",
+      "name": "Spacing"
+    },
+    {
+      "id": "xexhbc",
+      "name": "Padding"
+    },
+    {
+      "id": "gdflsm",
+      "name": "Gap"
+    },
+    {
+      "id": "pnuvab",
+      "name": "Typography"
+    },
+    {
+      "id": "at_clamp-settings",
+      "name": "AT - Clamp Settings"
+    }
+  ]
+}
