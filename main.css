@@ -1,7 +1,9 @@
 /* CSS Variables */
 
 /* Border */
-
+--field-radius: ;
+--icon-radius: ;
+--image-radius: ;
 --radius-circle: 50%;
 --radius-l: 1rem;
 --radius-m: .5em;
@@ -9,23 +11,101 @@
 --radius-s: .25rem;
 --radius-xl: 1.5rem;
 
-/* Colors */
-
+/* Buttons */
 --button-background-color--hover: var(--color-accent-dark-20);
 --button-background-color: var(--color-accent);
 --button-border-color: var(--color-accent);
+--button-color-hover: var(--color-accent-dark-20);
+--button-color: var(--color-accent);
+--button-horizontal-padding-l: 2em;
+--button-horizontal-padding-m: 1.5em;
+--button-horizontal-padding-s: 1em;
 --button-padding-l: 1em 2em;
 --button-padding-m: 0.75em 1.5em;
 --button-padding-s: 0.5em 1em;
 --button-radius: var(--radius-pill);
---button-text-color--filled: white;
---button-text-color--outlined: var(--color-accent);
+--button-text-color: ;
+--button-text-color-filled: ;
+--button-text-color-outlined: ;
+--button-border-width: ;
+--button-text-l: var(--text-l);
+--button-text-m: var(--text-m);
+--button-text-s: var(--text-s);
+--button-vertical-padding-l: 1em;
+--button-vertical-padding-m: 0.75em;
+--button-vertical-padding-s: 0.5em;
+
+/* Cards */
+--card-gap: var(--space-xs);
+--card-padding: var(--space-m);
+--card-radius: var(--radius-l);
+
+/* Colors */
+--color-accent: #1daf9e;
+--color-accent-dark-20: color-mix(in srgb, var(--color-accent), black 20%);
+--color-accent-dark-40: color-mix(in srgb, var(--color-accent), black 40%);
+--color-accent-dark-60: color-mix(in srgb, var(--color-accent), black 60%);
+--color-accent-dark-80: color-mix(in srgb, var(--color-accent), black 80%);
+--color-accent-light-20: color-mix(in srgb, var(--color-accent), white 20%);
+--color-accent-light-40: color-mix(in srgb, var(--color-accent), white 40%);
+--color-accent-light-60: color-mix(in srgb, var(--color-accent), white 60%);
+--color-accent-light-80: color-mix(in srgb, var(--color-accent), white 80%);
+--color-danger: red;
+--color-info: blue;
+--color-neutral: #808080;
+--color-neutral-dark-20: color-mix(in srgb, var(--color-neutral), black 20%);
+--color-neutral-dark-40: color-mix(in srgb, var(--color-neutral), black 40%);
+--color-neutral-dark-60: color-mix(in srgb, var(--color-neutral), black 60%);
+--color-neutral-dark-80: color-mix(in srgb, var(--color-neutral), black 80%);
+--color-neutral-light-20: color-mix(in srgb, var(--color-neutral), white 20%);
+--color-neutral-light-40: color-mix(in srgb, var(--color-neutral), white 40%);
+--color-neutral-light-60: color-mix(in srgb, var(--color-neutral), white 60%);
+--color-neutral-light-80: color-mix(in srgb, var(--color-neutral), white 80%);
+--color-primary-dark-20: color-mix(in srgb, var(--color-primary), black 20%);
+--color-primary-dark-40: color-mix(in srgb, var(--color-primary), black 40%);
+--color-primary-dark-60: color-mix(in srgb, var(--color-primary), black 60%);
+--color-primary-dark-80: color-mix(in srgb, var(--color-primary), black 80%);
+--color-primary: hsl(200, 100%, 70%);
+--color-primary-light-20: color-mix(in srgb, var(--color-primary), white 20%);
+--color-primary-light-40: color-mix(in srgb, var(--color-primary), white 40%);
+--color-primary-light-60: color-mix(in srgb, var(--color-primary), white 60%);
+--color-primary-light-80: color-mix(in srgb, var(--color-primary), white 80%);
+--color-secondary: #2f3192;
+--color-secondary-dark-20: color-mix(in srgb, var(--color-secondary), black 20%);
+--color-secondary-dark-40: color-mix(in srgb, var(--color-secondary), black 40%);
+--color-secondary-dark-60: color-mix(in srgb, var(--color-secondary), black 60%);
+--color-secondary-dark-80: color-mix(in srgb, var(--color-secondary), black 80%);
+--color-secondary-light-20: color-mix(in srgb, var(--color-secondary), white 20%);
+--color-secondary-light-40: color-mix(in srgb, var(--color-secondary), white 40%);
+--color-secondary-light-60: color-mix(in srgb, var(--color-secondary), white 60%);
+--color-secondary-light-80: color-mix(in srgb, var(--color-secondary), white 80%);
+--color-success: green;
+--color-tertiary-dark-20: color-mix(in srgb, var(--color-tertiary), black 20%);
+--color-tertiary-dark-40: color-mix(in srgb, var(--color-tertiary), black 40%);
+--color-tertiary-dark-60: color-mix(in srgb, var(--color-tertiary), black 60%);
+--color-tertiary-dark-80: color-mix(in srgb, var(--color-tertiary), black 80%);
+--color-tertiary: #EB2679;
+--color-tertiary-light-20: color-mix(in srgb, var(--color-tertiary), white 20%);
+--color-tertiary-light-40: color-mix(in srgb, var(--color-tertiary), white 40%);
+--color-tertiary-light-60: color-mix(in srgb, var(--color-tertiary), white 60%);
+--color-tertiary-light-80: color-mix(in srgb, var(--color-tertiary), white 80%);
 
 /* Gap */
-
+--container-gap: var(--gap-m);
+--content-gap: var(--gap-s);
+--content-gap-s: var(--gap-xs);
+--gap-l: var(--space-l);
+--gap-m: var(--space-m);
+--gap-s: var(--space-s);
+--gap-xl: var(--space-xl);
+--gap-xs: var(--space-xs);
+--gap-xxl: var(--space-xxl);
+--gap-xxs: var(--space-xxs);
+--grid-gap: var(--gap-m);
+--navigation-gap: var(--gap-m);
+--section-gap: var(--gap-xl);
 
 /* Grid */
-
 --grid-1: repeat(1, 1fr);
 --grid-2: repeat(2, 1fr);
 --grid-3: repeat(3, 1fr);
@@ -34,19 +114,25 @@
 --grid-auto-2: repeat(auto-fit, minmax(min(100%, 430px), 1fr));
 --grid-auto-3: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
 --grid-auto-4: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
---grid-gap: var(--space-m)
+--grid-gap: var(--space-m);
+
+/* Links */
+--link-color: var(--color-accent);
+--link-color-hover: var(--color-accent-dark-20);
 
 /* Margin */
 
-
 /* Padding */
-
---section-block-padding: var(--space-m)
---section-inline-padding: var(--space-xl)
+--section-block-padding: var(--space-m);
+--section-inline-padding: var(--space-xl);
 --section-padding: var(--space-xl) var(--space-m);
 
-/* Spacing */
+/* Sizes */
+--container-width: 1366px;
+--width-25: 25%;
+-width-50: 50%;
 
+/* Spacing */
 --space-l: clamp(3rem, 1.53vw + 2.694rem, 4rem);
 --space-m: clamp(2rem, 0.765vw + 1.847rem, 2.5rem);
 --space-s: clamp(1rem, 0.382vw + 0.924rem, 1.25rem);
@@ -55,12 +141,25 @@
 --space-xs: clamp(0.5rem, 0.191vw + 0.462rem, 0.625rem);
 --space-xxs: clamp(0.25rem, 0.096vw + 0.231rem, 0.3125rem);
 
-/* Typography */
+/* Padding */
+--padding-l: var(--space-l);
+--padding-m: var(--space-m);
+--padding-s: var(--space-s);
+--padding-xl: var(--space-xl);
+--padding-xs: var(--space-xs);
+--padding-xxl: var(--space-xxl);
+--padding-xxs: var(--space-xxs);
+--section-horizontal-padding: var(--space-s-m);
+--section-vertical-padding: var(--space-xl);
 
+/* Typography */
 --font-system: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
---text-h1: clamp(3.5rem, 3.824vw + 2.735rem, 6rem);
---text-h2: clamp(2.5rem, 1.912vw + 2.118rem, 3.75rem);
---text-h3: clamp(1.5rem, 0.765vw + 1.347rem, 2rem);
+--text-h1: clamp(3rem, 0.717vw + 2.771rem, 3.75rem);
+--text-h2: clamp(3rem, 0.717vw + 2.771rem, 3.75rem);
+--text-h3: clamp(2rem, 0.478vw + 1.847rem, 2.5rem);
+--text-h4: clamp(1.5rem, 0.478vw + 1.347rem, 2rem);
+--text-h5: clamp(1.25rem, 0.239vw + 1.174rem, 1.5rem);
+--text-h6: clamp(1rem, 0.382vw + 0.924rem, 1.25rem);
 --text-l: 1.25rem;
 --text-m: 1rem;
 --text-s: .875rem;
