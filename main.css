@@ -130,7 +130,7 @@
 /* Sizes */
 --container-width: 1366px;
 --width-25: 25%;
--width-50: 50%;
+--width-50: 50%;
 
 /* Spacing */
 --space-l: clamp(3rem, 1.53vw + 2.694rem, 4rem);
