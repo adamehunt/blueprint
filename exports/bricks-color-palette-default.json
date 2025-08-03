@@ -1,0 +1,296 @@
+{
+  "id": "f947c0",
+  "name": "Default",
+  "colors": [
+    {
+      "raw": "var(--primary)",
+      "id": "nnjbhw",
+      "name": "Primary"
+    },
+    {
+      "raw": "var(--primary-tint-10)",
+      "id": "eoelol",
+      "name": "Primary-Tint-10"
+    },
+    {
+      "raw": "var(--primary-tint-20)",
+      "id": "yheniz",
+      "name": "Primary-Tint-20"
+    },
+    {
+      "raw": "var(--primary-tint-40)",
+      "id": "wtjufy",
+      "name": "Primary-Tint-40"
+    },
+    {
+      "raw": "var(--primary-tint-60)",
+      "id": "vdtang",
+      "name": "Primary-Tint-60"
+    },
+    {
+      "raw": "var(--primary-tint-80)",
+      "id": "fxzjtz",
+      "name": "Primary-Tint-80"
+    },
+    {
+      "raw": "var(--primary-tint-90)",
+      "id": "njjiaz",
+      "name": "Primary-Tint-90"
+    },
+    {
+      "raw": "var(--primary-shade-10)",
+      "id": "fzqzvv",
+      "name": "Primary-Shade-10"
+    },
+    {
+      "raw": "var(--primary-shade-20)",
+      "id": "irlowa",
+      "name": "Primary-Shade-20"
+    },
+    {
+      "raw": "var(--primary-shade-40)",
+      "id": "cpisxr",
+      "name": "Primary-Shade-40"
+    },
+    {
+      "raw": "var(--primary-shade-60)",
+      "id": "xctwde",
+      "name": "Primary-Shade-60"
+    },
+    {
+      "raw": "var(--primary-shade-80)",
+      "id": "pandqn",
+      "name": "Primary-Shade-80"
+    },
+    {
+      "raw": "var(--primary-shade-90)",
+      "id": "omnrfg",
+      "name": "Primary-Shade-90"
+    },
+    {
+      "raw": "var(--secondary)",
+      "id": "xwweiu",
+      "name": "Secondary"
+    },
+    {
+      "raw": "var(--secondary-tint-10)",
+      "id": "npytpk",
+      "name": "Secondary-Tint-10"
+    },
+    {
+      "raw": "var(--secondary-tint-20)",
+      "id": "bbkbww",
+      "name": "Secondary-Tint-20"
+    },
+    {
+      "raw": "var(--secondary-tint-40)",
+      "id": "ncctlz",
+      "name": "Secondary-Tint-40"
+    },
+    {
+      "raw": "var(--secondary-tint-60)",
+      "id": "vmopkh",
+      "name": "Secondary-Tint-60"
+    },
+    {
+      "raw": "var(--secondary-tint-80)",
+      "id": "xgflpj",
+      "name": "Secondary-Tint-80"
+    },
+    {
+      "raw": "var(--secondary-tint-90)",
+      "id": "ssjlst",
+      "name": "Secondary-Tint-90"
+    },
+    {
+      "raw": "var(--secondary-shade-10)",
+      "id": "shwdzs",
+      "name": "Secondary-Shade-10"
+    },
+    {
+      "raw": "var(--secondary-shade-20)",
+      "id": "qynqtl",
+      "name": "Secondary-Shade-20"
+    },
+    {
+      "raw": "var(--secondary-shade-40)",
+      "id": "rrufkr",
+      "name": "Secondary-Shade-40"
+    },
+    {
+      "raw": "var(--secondary-shade-60)",
+      "id": "diiiqx",
+      "name": "Secondary-Shade-60"
+    },
+    {
+      "raw": "var(--secondary-shade-80)",
+      "id": "kupmvm",
+      "name": "Secondary-Shade-80"
+    },
+    {
+      "raw": "var(--secondary-shade-90)",
+      "id": "igyyeo",
+      "name": "Secondary-Shade-90"
+    },
+    {
+      "raw": "var(--accent)",
+      "id": "mhxbbm",
+      "name": "Accent"
+    },
+    {
+      "raw": "var(--accent-tint-10)",
+      "id": "ueulkk",
+      "name": "Accent-Tint-10"
+    },
+    {
+      "raw": "var(--accent-tint-20)",
+      "id": "pkkshy",
+      "name": "Accent-Tint-20"
+    },
+    {
+      "raw": "var(--accent-tint-40)",
+      "id": "dkwqdh",
+      "name": "Accent-Tint-40"
+    },
+    {
+      "raw": "var(--accent-tint-60)",
+      "id": "tgkzoj",
+      "name": "Accent-Tint-60"
+    },
+    {
+      "raw": "var(--accent-tint-80)",
+      "id": "pcypol",
+      "name": "Accent-Tint-80"
+    },
+    {
+      "raw": "var(--accent-tint-90)",
+      "id": "xnlzbh",
+      "name": "Accent-Tint-90"
+    },
+    {
+      "raw": "var(--accent-shade-10)",
+      "id": "czdnya",
+      "name": "Accent-Shade-10"
+    },
+    {
+      "raw": "var(--accent-shade-20)",
+      "id": "hautja",
+      "name": "Accent-Shade-20"
+    },
+    {
+      "raw": "var(--accent-shade-40)",
+      "id": "rqvkgb",
+      "name": "Accent-Shade-40"
+    },
+    {
+      "raw": "var(--accent-shade-60)",
+      "id": "usvsmg",
+      "name": "Accent-Shade-60"
+    },
+    {
+      "raw": "var(--accent-shade-80)",
+      "id": "fkvqdd",
+      "name": "Accent-Shade-80"
+    },
+    {
+      "raw": "var(--accent-shade-90)",
+      "id": "xsmzpw",
+      "name": "Accent-Shade-90"
+    },
+    {
+      "raw": "var(--neutral)",
+      "id": "twhenj",
+      "name": "Neutral"
+    },
+    {
+      "raw": "var(--neutral-shade-10)",
+      "id": "rdrovu",
+      "name": "Neutral-Shade-10"
+    },
+    {
+      "raw": "var(--neutral-shade-20)",
+      "id": "rrhjpj",
+      "name": "Neutral-Shade-20"
+    },
+    {
+      "raw": "var(--neutral-shade-40)",
+      "id": "weydgn",
+      "name": "Neutral-Shade-40"
+    },
+    {
+      "raw": "var(--neutral-shade-60)",
+      "id": "abaoms",
+      "name": "Neutral-Shade-60"
+    },
+    {
+      "raw": "var(--neutral-shade-80)",
+      "id": "gnbaur",
+      "name": "Neutral-Shade-80"
+    },
+    {
+      "raw": "var(--neutral-shade-90)",
+      "id": "zkrihy",
+      "name": "Neutral-Shade-90"
+    },
+    {
+      "hex": "#000000",
+      "id": "gjskdt",
+      "name": "Black"
+    },
+    {
+      "raw": "var(--tertiary)",
+      "id": "uwmcdp",
+      "name": "Color #48"
+    },
+    {
+      "raw": "var(--tertiary-tint-20)",
+      "id": "geujev",
+      "name": "Color #49"
+    },
+    {
+      "raw": "var(--tertiary-tint-40)",
+      "id": "viixke",
+      "name": "Color #50"
+    },
+    {
+      "raw": "var(--tertiary-tint-60)",
+      "id": "eldkao",
+      "name": "Color #51"
+    },
+    {
+      "raw": "var(--tertiary-tint-80)",
+      "id": "ndqvjq",
+      "name": "Color #52"
+    },
+    {
+      "raw": "var(--tertiary-tint-90)",
+      "id": "rniqrz",
+      "name": "Color #53"
+    },
+    {
+      "raw": "var(--tertiary-shade-20)",
+      "id": "xzwcqv",
+      "name": "Color #54"
+    },
+    {
+      "raw": "var(--tertiary-shade-40)",
+      "id": "woylgo",
+      "name": "Color #55"
+    },
+    {
+      "raw": "var(--tertiary-shade-60)",
+      "id": "sxfudb",
+      "name": "Color #56"
+    },
+    {
+      "raw": "var(--tertiary-shade-80)",
+      "id": "vitwxs",
+      "name": "Color #57"
+    },
+    {
+      "raw": "var(--tertiary-shade-90)",
+      "id": "kwfslr",
+      "name": "Color #58"
+    }
+  ]
+}
